@@ -1,0 +1,3 @@
+CoreMotion是一个专门处理Motion的框架，其中包含了两个部分加速度计和陀螺仪，在iOS4之前加速度计是由UIAccelerometer类来负责采集数据，
+现在一般都是用CoreMotion来处理加速度过程，不过由于UIAccelerometer比较简单，同样有人在使用。
+该框架使用了UIAccelerometer和CoreMotion分别作了数据处理
