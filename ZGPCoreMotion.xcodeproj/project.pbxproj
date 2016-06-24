@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39D754C31D1BD84900665AB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D754C21D1BD84900665AB3 /* main.m */; };
+		39D754C61D1BD84900665AB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D754C51D1BD84900665AB3 /* AppDelegate.m */; };
+		39D754C91D1BD84900665AB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D754C81D1BD84900665AB3 /* ViewController.m */; };
+		39D754CC1D1BD84900665AB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39D754CA1D1BD84900665AB3 /* Main.storyboard */; };
+		39D754CE1D1BD84900665AB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39D754CD1D1BD84900665AB3 /* Assets.xcassets */; };
+		39D754D11D1BD84900665AB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39D754CF1D1BD84900665AB3 /* LaunchScreen.storyboard */; };
+		39D754DC1D1BD84900665AB3 /* ZGPCoreMotionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D754DB1D1BD84900665AB3 /* ZGPCoreMotionTests.m */; };
+		39D754E71D1BD84900665AB3 /* ZGPCoreMotionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D754E61D1BD84900665AB3 /* ZGPCoreMotionUITests.m */; };
+		39D754F51D1BD86A00665AB3 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39D754F41D1BD86A00665AB3 /* CoreMotion.framework */; };
+		39D754F81D1BED3800665AB3 /* CMMotionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D754F71D1BED3800665AB3 /* CMMotionController.m */; };
+		39D754FB1D1BED5C00665AB3 /* AccelerometerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39D754FA1D1BED5C00665AB3 /* AccelerometerController.m */; };
+		39F7733A1D1CDF4600E08200 /* ZGPCMMotionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F773391D1CDF4600E08200 /* ZGPCMMotionManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39D754D81D1BD84900665AB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39D754B61D1BD84800665AB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39D754BD1D1BD84900665AB3;
+			remoteInfo = ZGPCoreMotion;
+		};
+		39D754E31D1BD84900665AB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39D754B61D1BD84800665AB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39D754BD1D1BD84900665AB3;
+			remoteInfo = ZGPCoreMotion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39D754BE1D1BD84900665AB3 /* ZGPCoreMotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGPCoreMotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D754C21D1BD84900665AB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39D754C41D1BD84900665AB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39D754C51D1BD84900665AB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39D754C71D1BD84900665AB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		39D754C81D1BD84900665AB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		39D754CB1D1BD84900665AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		39D754CD1D1BD84900665AB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		39D754D01D1BD84900665AB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39D754D21D1BD84900665AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39D754D71D1BD84900665AB3 /* ZGPCoreMotionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGPCoreMotionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D754DB1D1BD84900665AB3 /* ZGPCoreMotionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGPCoreMotionTests.m; sourceTree = "<group>"; };
+		39D754DD1D1BD84900665AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39D754E21D1BD84900665AB3 /* ZGPCoreMotionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGPCoreMotionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39D754E61D1BD84900665AB3 /* ZGPCoreMotionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZGPCoreMotionUITests.m; sourceTree = "<group>"; };
+		39D754E81D1BD84900665AB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39D754F41D1BD86A00665AB3 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		39D754F61D1BED3800665AB3 /* CMMotionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMotionController.h; sourceTree = "<group>"; };
+		39D754F71D1BED3800665AB3 /* CMMotionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMotionController.m; sourceTree = "<group>"; };
+		39D754F91D1BED5C00665AB3 /* AccelerometerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerController.h; sourceTree = "<group>"; };
+		39D754FA1D1BED5C00665AB3 /* AccelerometerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerController.m; sourceTree = "<group>"; };
+		39F773381D1CDF4600E08200 /* ZGPCMMotionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZGPCMMotionManager.h; sourceTree = "<group>"; };
+		39F773391D1CDF4600E08200 /* ZGPCMMotionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZGPCMMotionManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39D754BB1D1BD84900665AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D754F51D1BD86A00665AB3 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D754D41D1BD84900665AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D754DF1D1BD84900665AB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39D754B51D1BD84800665AB3 = {
+			isa = PBXGroup;
+			children = (
+				39D754F41D1BD86A00665AB3 /* CoreMotion.framework */,
+				39D754C01D1BD84900665AB3 /* ZGPCoreMotion */,
+				39D754DA1D1BD84900665AB3 /* ZGPCoreMotionTests */,
+				39D754E51D1BD84900665AB3 /* ZGPCoreMotionUITests */,
+				39D754BF1D1BD84900665AB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39D754BF1D1BD84900665AB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39D754BE1D1BD84900665AB3 /* ZGPCoreMotion.app */,
+				39D754D71D1BD84900665AB3 /* ZGPCoreMotionTests.xctest */,
+				39D754E21D1BD84900665AB3 /* ZGPCoreMotionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39D754C01D1BD84900665AB3 /* ZGPCoreMotion */ = {
+			isa = PBXGroup;
+			children = (
+				39D754C41D1BD84900665AB3 /* AppDelegate.h */,
+				39D754C51D1BD84900665AB3 /* AppDelegate.m */,
+				39D754C71D1BD84900665AB3 /* ViewController.h */,
+				39D754C81D1BD84900665AB3 /* ViewController.m */,
+				39D754F91D1BED5C00665AB3 /* AccelerometerController.h */,
+				39D754FA1D1BED5C00665AB3 /* AccelerometerController.m */,
+				39D754F61D1BED3800665AB3 /* CMMotionController.h */,
+				39D754F71D1BED3800665AB3 /* CMMotionController.m */,
+				39F773381D1CDF4600E08200 /* ZGPCMMotionManager.h */,
+				39F773391D1CDF4600E08200 /* ZGPCMMotionManager.m */,
+				39D754CA1D1BD84900665AB3 /* Main.storyboard */,
+				39D754CD1D1BD84900665AB3 /* Assets.xcassets */,
+				39D754CF1D1BD84900665AB3 /* LaunchScreen.storyboard */,
+				39D754D21D1BD84900665AB3 /* Info.plist */,
+				39D754C11D1BD84900665AB3 /* Supporting Files */,
+			);
+			path = ZGPCoreMotion;
+			sourceTree = "<group>";
+		};
+		39D754C11D1BD84900665AB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39D754C21D1BD84900665AB3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39D754DA1D1BD84900665AB3 /* ZGPCoreMotionTests */ = {
+			isa = PBXGroup;
+			children = (
+				39D754DB1D1BD84900665AB3 /* ZGPCoreMotionTests.m */,
+				39D754DD1D1BD84900665AB3 /* Info.plist */,
+			);
+			path = ZGPCoreMotionTests;
+			sourceTree = "<group>";
+		};
+		39D754E51D1BD84900665AB3 /* ZGPCoreMotionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				39D754E61D1BD84900665AB3 /* ZGPCoreMotionUITests.m */,
+				39D754E81D1BD84900665AB3 /* Info.plist */,
+			);
+			path = ZGPCoreMotionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39D754BD1D1BD84900665AB3 /* ZGPCoreMotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D754EB1D1BD84900665AB3 /* Build configuration list for PBXNativeTarget "ZGPCoreMotion" */;
+			buildPhases = (
+				39D754BA1D1BD84900665AB3 /* Sources */,
+				39D754BB1D1BD84900665AB3 /* Frameworks */,
+				39D754BC1D1BD84900665AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZGPCoreMotion;
+			productName = ZGPCoreMotion;
+			productReference = 39D754BE1D1BD84900665AB3 /* ZGPCoreMotion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39D754D61D1BD84900665AB3 /* ZGPCoreMotionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D754EE1D1BD84900665AB3 /* Build configuration list for PBXNativeTarget "ZGPCoreMotionTests" */;
+			buildPhases = (
+				39D754D31D1BD84900665AB3 /* Sources */,
+				39D754D41D1BD84900665AB3 /* Frameworks */,
+				39D754D51D1BD84900665AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39D754D91D1BD84900665AB3 /* PBXTargetDependency */,
+			);
+			name = ZGPCoreMotionTests;
+			productName = ZGPCoreMotionTests;
+			productReference = 39D754D71D1BD84900665AB3 /* ZGPCoreMotionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		39D754E11D1BD84900665AB3 /* ZGPCoreMotionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39D754F11D1BD84900665AB3 /* Build configuration list for PBXNativeTarget "ZGPCoreMotionUITests" */;
+			buildPhases = (
+				39D754DE1D1BD84900665AB3 /* Sources */,
+				39D754DF1D1BD84900665AB3 /* Frameworks */,
+				39D754E01D1BD84900665AB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39D754E41D1BD84900665AB3 /* PBXTargetDependency */,
+			);
+			name = ZGPCoreMotionUITests;
+			productName = ZGPCoreMotionUITests;
+			productReference = 39D754E21D1BD84900665AB3 /* ZGPCoreMotionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39D754B61D1BD84800665AB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Tsinova;
+				TargetAttributes = {
+					39D754BD1D1BD84900665AB3 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					39D754D61D1BD84900665AB3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 39D754BD1D1BD84900665AB3;
+					};
+					39D754E11D1BD84900665AB3 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 39D754BD1D1BD84900665AB3;
+					};
+				};
+			};
+			buildConfigurationList = 39D754B91D1BD84800665AB3 /* Build configuration list for PBXProject "ZGPCoreMotion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39D754B51D1BD84800665AB3;
+			productRefGroup = 39D754BF1D1BD84900665AB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39D754BD1D1BD84900665AB3 /* ZGPCoreMotion */,
+				39D754D61D1BD84900665AB3 /* ZGPCoreMotionTests */,
+				39D754E11D1BD84900665AB3 /* ZGPCoreMotionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39D754BC1D1BD84900665AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D754D11D1BD84900665AB3 /* LaunchScreen.storyboard in Resources */,
+				39D754CE1D1BD84900665AB3 /* Assets.xcassets in Resources */,
+				39D754CC1D1BD84900665AB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D754D51D1BD84900665AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D754E01D1BD84900665AB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39D754BA1D1BD84900665AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D754C91D1BD84900665AB3 /* ViewController.m in Sources */,
+				39D754F81D1BED3800665AB3 /* CMMotionController.m in Sources */,
+				39D754C61D1BD84900665AB3 /* AppDelegate.m in Sources */,
+				39D754C31D1BD84900665AB3 /* main.m in Sources */,
+				39D754FB1D1BED5C00665AB3 /* AccelerometerController.m in Sources */,
+				39F7733A1D1CDF4600E08200 /* ZGPCMMotionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D754D31D1BD84900665AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D754DC1D1BD84900665AB3 /* ZGPCoreMotionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39D754DE1D1BD84900665AB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39D754E71D1BD84900665AB3 /* ZGPCoreMotionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39D754D91D1BD84900665AB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39D754BD1D1BD84900665AB3 /* ZGPCoreMotion */;
+			targetProxy = 39D754D81D1BD84900665AB3 /* PBXContainerItemProxy */;
+		};
+		39D754E41D1BD84900665AB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39D754BD1D1BD84900665AB3 /* ZGPCoreMotion */;
+			targetProxy = 39D754E31D1BD84900665AB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39D754CA1D1BD84900665AB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39D754CB1D1BD84900665AB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		39D754CF1D1BD84900665AB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39D754D01D1BD84900665AB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39D754E91D1BD84900665AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39D754EA1D1BD84900665AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39D754EC1D1BD84900665AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZGPCoreMotion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tsinova.ZGPCoreMotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		39D754ED1D1BD84900665AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZGPCoreMotion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tsinova.ZGPCoreMotion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		39D754EF1D1BD84900665AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZGPCoreMotionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tsinova.ZGPCoreMotionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGPCoreMotion.app/ZGPCoreMotion";
+			};
+			name = Debug;
+		};
+		39D754F01D1BD84900665AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZGPCoreMotionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tsinova.ZGPCoreMotionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGPCoreMotion.app/ZGPCoreMotion";
+			};
+			name = Release;
+		};
+		39D754F21D1BD84900665AB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZGPCoreMotionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tsinova.ZGPCoreMotionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZGPCoreMotion;
+			};
+			name = Debug;
+		};
+		39D754F31D1BD84900665AB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZGPCoreMotionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Tsinova.ZGPCoreMotionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZGPCoreMotion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39D754B91D1BD84800665AB3 /* Build configuration list for PBXProject "ZGPCoreMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D754E91D1BD84900665AB3 /* Debug */,
+				39D754EA1D1BD84900665AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39D754EB1D1BD84900665AB3 /* Build configuration list for PBXNativeTarget "ZGPCoreMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D754EC1D1BD84900665AB3 /* Debug */,
+				39D754ED1D1BD84900665AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39D754EE1D1BD84900665AB3 /* Build configuration list for PBXNativeTarget "ZGPCoreMotionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D754EF1D1BD84900665AB3 /* Debug */,
+				39D754F01D1BD84900665AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39D754F11D1BD84900665AB3 /* Build configuration list for PBXNativeTarget "ZGPCoreMotionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39D754F21D1BD84900665AB3 /* Debug */,
+				39D754F31D1BD84900665AB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39D754B61D1BD84800665AB3 /* Project object */;
+}
