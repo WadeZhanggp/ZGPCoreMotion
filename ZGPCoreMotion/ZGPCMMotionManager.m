@@ -50,7 +50,6 @@ static ZGPCMMotionManager *instance;
         _cMMotionManager.deviceMotionUpdateInterval = 0.01f;
         [_cMMotionManager startDeviceMotionUpdatesToQueue:[NSOperationQueue mainQueue] withHandler:^(CMDeviceMotion * _Nullable motion, NSError * _Nullable error) {
             
-            NSLog(@"spped-x = %f, y = %f, z = %f",motion.userAcceleration.x,motion.userAcceleration.y,motion.userAcceleration.z);
             if (self.delegate && [self.delegate respondsToSelector:@selector(getCMDeviceMotion:)]) {
                 [self.delegate getCMDeviceMotion:motion];
             }

@@ -12,7 +12,7 @@
 @interface AccelerometerController()<UIAccelerometerDelegate>
 {
     
-    //我们用一个label来表示随加速度方向运动的小方块
+    //label来表示随加速度方向运动的小方块
     UILabel *_label;
     //x轴方向的速度
     UIAccelerationValue _speedX;
@@ -27,7 +27,7 @@
 
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
-    //召唤加速度传感器
+    //打开加速度传感器
     UIAccelerometer *accelerometer = [UIAccelerometer sharedAccelerometer];
     //设置加速度传感器的 接收加速度通知的时间间隔
     //设置为1.0/60.0表示一秒接收60次，可根据实际需求调整
