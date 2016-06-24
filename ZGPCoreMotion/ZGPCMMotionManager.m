@@ -26,7 +26,7 @@ static ZGPCMMotionManager *instance;
         
         instance = [[ZGPCMMotionManager alloc] init];
         instance.cMMotionManager = [[CMMotionManager alloc] init];
-        
+        [instance.cMMotionManager setAccelerometerUpdateInterval:1/1.0];
         
     });
     return instance;

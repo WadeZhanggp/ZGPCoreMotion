@@ -56,14 +56,14 @@
 
 - (void)getCMDeviceMotion:(CMDeviceMotion *)motion{
     
-    NSLog(@"spped-x = %f, y = %f",motion.userAcceleration.x,motion.userAcceleration.y);
-    _speedX += motion.userAcceleration.x * 10;
+    NSLog(@"spped-x = %f, y = %f",motion.gravity.x,motion.gravity.y);
+    _speedX += motion.gravity.x ;
     //y轴方向的速度加上y轴方向获得的加速度
-    _speedY += motion.userAcceleration.y * 10;
+    _speedY += motion.gravity.y ;
     //小方块将要移动到的x轴坐标
     CGFloat posX = _label.center.x + _speedX/2;
     //小方块将要移动到的y轴坐标
-    CGFloat posY = _label.center.y + _speedY/2;
+    CGFloat posY = _label.center.y - _speedY/2;
     //碰到屏幕边缘反弹
     if (posX < 0.0) {
         posX = 0.0;
